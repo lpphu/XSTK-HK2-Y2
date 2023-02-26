@@ -41,6 +41,39 @@ def function_02(n):
 print(function_02(100000))
 
 ' ' ' Exercise c Bốn lá cùng màu ' ' '
+def function_03(n):
+    count = 0
+    for i in range(n):
+        temp = random.choices(deck,k=4)
+        tempSuit = temp[0][1] + temp[1][1] + temp[2][1] + temp[3][1]
+        for i in red:
+            if tempSuit.count(i) == 2:
+                count += 1
+    return count/n
+
 ' ' ' Exercise d Bốn lá cùng chỉ số (tứ quý) ' ' '
+def function_04(n):
+    count = 0
+    for i in range(n):
+        temp = random.choices(deck,k=4)
+        if temp[0][0] == temp[1][0] == temp[2][0] == temp[3][0]:
+            count += 1
+    return count/n
+
 ' ' ' Exercise e Bốn lá cùng là loại số ' ' '
+def function_05(n):
+    count = 0
+    for i in range(n):
+        temp = random.choices(deck,k=4)
+        if temp[0][1] == temp[1][1] == temp[2][1] == temp[3][1]:
+            count += 1
+    return count/n
+
 ' ' ' Exercise f Bốn lá cùng là loại hình ' ' '
+def function_01(n):
+    count = 0
+    for i in range(n):
+        temp = random.choices(deck,k=4)
+        if temp[0][0] == temp[1][0] == temp[2][0] == temp[3][0]:
+            count += 1
+    return count/n
