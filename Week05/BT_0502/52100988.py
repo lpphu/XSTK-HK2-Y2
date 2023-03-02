@@ -70,3 +70,11 @@ avg_d = (d_1 + d_2 + d_3)/3
 VARX = math.sqrt(avg_d)
 
 print("VARX = ",VARX)
+
+''' 7. '''
+data = [P_0, P_1, P_2, P_3]
+count_blue = ["0 ball have Blue","1 ball have Blue","2 balls have Blue", "3 ball have Blue"]
+
+plt.pie(data, labels = count_blue)
+# plt.legend()
+plt.show()
