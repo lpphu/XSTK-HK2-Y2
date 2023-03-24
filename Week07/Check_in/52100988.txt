@@ -1,0 +1,7 @@
+Ở Normal Distribution thì:
+    dữ liệu được phân bố theo dạng hình chuông 
+    dữ liệu ở trục x là những số lớn
+
+Ở Uniform Distribution thì:
+    dữ liệu được phân bố theo hình chữ nhật
+    dữ liệu ở trịc y là những đơn vị cách nhau 1 khoản nhỏ
